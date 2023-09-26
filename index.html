@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Tarea 4</title>
+</head>
+<body>
+    <h1 id="titulo">Calculadora</h1>
+    <div class="contenedor">
+            <form action="">
+                <div class="numeros">
+                    <div class="num-izq">
+                        <label for="num1">Ingrese el primer  numero</label> 
+                        <input type="text" id="num1" class="escribir"required>
+                    </div>
+                    <div class="num-der">
+                        <label for="num2">Ingrese el segundo numero</label> 
+                        <input type="text" id="num2" class="escribir" required>
+                    </div>
+                </div>
+                <div class="boton-abajo">
+                    <div class="boton">
+                        <button type="button" id="boton" onclick="capturar()">Enviar</button>
+                    </div>
+
+                </div>
+
+            </form>
+            <div class="resultado" id="resultado">
+
+            </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
